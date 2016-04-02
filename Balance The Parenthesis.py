@@ -1,4 +1,4 @@
-"""Program to Balance the Parantheses
+"""Program to Balance the Parenthesis
 We will use Stack Data Structure to implement this"""
 
 class Stack:
@@ -24,7 +24,7 @@ while (i < number):
     s = Stack()         #creating Stack() object
 
     for j in seq:
-        if j == '(' or j == '{' or j == '[':    #push all opening parantheses onto Stack
+        if j == '(' or j == '{' or j == '[':    #push all opening parenthesis onto Stack
             s.push(j)
         elif j == ')' or j == '}' or j == ']':  #pop from Stack if we receive any closing ones
             top = s.pop()
